@@ -22,8 +22,8 @@ If you find our code or paper useful, please cite the paper:
 }
 ```
 
-<!-- ### Announcements -->
-
+### Announcements
+05/24/2023: Our paper is accepted by ACL 2023. 
 
 ## Content
 1. [Installation](#installation)
@@ -56,16 +56,7 @@ bash build_dependencies.sh
 
 ## Prepare Corpus
 
-We use exactly the same corpus from the [DEMix Layers paper][demix-link]. Follow their [corpus-specific instructions](https://github.com/kernelmachine/demix-data/blob/main/DOWNLOAD_DEMIX_DATA.md) to get the corpus data. Note that downloading most corpora involves getting approval from dataset hosters.
-
-Place the `.txt` corpus files into `corpuses` in the root directory, and run the following commands:
-```bash
-python preprocess/preprocess_corpus.py # preprocess the raw corpus files(downsizing and breaking them down into single sentences)
-python scripts/build_index.py # build the embeddings and index of the corpus
-```
-
-#### If you prefer to avoid following corpus-specific instructions
-We are unfortunately unable to help you skip getting approvals from the original data hosters. Alternatively, you have two options.
+We use exactly the same corpus from the [DEMix Layers paper][demix-link]. Unfortunately, we are unable to help you skip getting approvals from the original data hosters. Alternatively, you have two options.
 
 *Option 1*: If it is purely for research purposes, email [us](mailto:alrope@cs.washington.edu), and we will see what resources we can share.
 
