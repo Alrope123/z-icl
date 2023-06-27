@@ -17,8 +17,8 @@ If you find our code or paper useful, please cite the paper:
 @inproceedings{ lyu2022zicl,
     title={ Z-ICL: Zero-Shot In-Context Learning with Pseudo-Demonstrations },
     author={ Lyu, Xinxi and Min, Sewon and Beltagy, Iz and Zettlemoyer, Luke and Hajishirzi, Hannaneh },
-    journal={ arXiv preprint arXiv:2212.09865 },
-  year={ 2022 }
+    journal={ ACL },
+    year={ 2023 }
 }
 ```
 
